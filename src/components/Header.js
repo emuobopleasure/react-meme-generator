@@ -5,7 +5,7 @@ const Header = () => {
     <div>
         <nav className='h-[65px] bg-gradient-to-r from-[#672280] to-[#A626D3] flex justify-between items-center px-6'>
             <div className='flex gap-3'>
-                <img src='images/trollface.png' className='header-img w-[35px] h-[31px]'/>
+                <img src='images/trollface.png' alt= 'trollface' className='header-img w-[35px] h-[31px]'/>
                 <h1 className='nav-title text-[20px] font-bold'>
                     Meme Generator
                 </h1>

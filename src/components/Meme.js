@@ -64,7 +64,7 @@ const Meme = () => {
             
         </div>
         <div className='meme relative'>
-          <img src={meme.randomImage} className="meme-image max-w-full rounded-[3px]"/>
+          <img src={meme.randomImage} alt='memeimage' className="meme-image max-w-full rounded-[3px]"/>
           <h2 className='memeText top'>
             {meme.topText}
           </h2>
