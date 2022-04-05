@@ -45,14 +45,14 @@ const Meme = () => {
         <div className='form flex flex-col gap-6 mb-[17px]'>
             <div className='inputs flex justify-between'>
                 <input type="text" 
-                  className="meme-top-text rounded-[5px] w-[190px] text-gray-700 font-bold"
+                  className="meme-top-text rounded-[5px] w-[9rem] md:w-[11rem] text-gray-700 font-bold"
                   onChange={handleText}
                   name="topText"
                   value={meme.topText} 
                   placeholder='Top text...' 
                 />
                 <input type="text" 
-                  className="meme-bottom-text rounded-[5px] w-[190px] text-gray-700 font-bold"
+                  className="meme-bottom-text rounded-[5px] w-[9rem] md:w-[11rem] text-gray-700 font-bold"
                   onChange={handleText} 
                   name="bottomText"
                   value={meme.bottomText}
